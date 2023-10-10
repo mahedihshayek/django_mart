@@ -1,0 +1,9 @@
+<!-- orders/failed.html -->
+{% extends "base.html" %}
+{% block content %}
+  <div class="container">
+    <h1>Payment Failed</h1>
+    <p>Unfortunately, unsuccessful. Please try again..</p>
+    <a href="{% url 'place_order' %}" class="btn btn-primary">Retry Payment</a>
+  </div>
+{% endblock %} 
